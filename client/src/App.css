@@ -1,0 +1,141 @@
+.App {
+  display: flex;
+  flex-direction: column;
+}
+.header{
+  background: #7966FF;
+  height: 70px;
+  color: #fff;
+  top: 0;
+  position: fixed;
+  width: 100%;
+  padding-bottom: 10px;
+  z-index: 100
+}
+.header h1{
+  padding-left: 10px;
+}
+.container{
+  display: flex;
+  flex-direction: column;
+  margin-top: 10vh;
+  margin-top: 80px;
+  position: fixed;
+  z-index: 30;
+  align-self: center;
+  background: #fff;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
+  width: 100%;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #7966FF;
+}
+.search_wrapper{
+  align-self: center;
+  margin-top:20px ;
+}
+ span{
+  position: absolute;
+  background: #7966FF;
+  color: #fff;
+  height: 30px;
+  padding-top: 5px;
+  margin-left: -15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.input_wrapper{
+  display:flex;
+  flex-direction: column;
+}
+.error{
+  color: red;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+.input{
+  border: 1px solid #7966FF;
+  width: 300px;
+  height: 30px;
+  align-self: center;
+  border-radius: 5px;
+  padding-left: 5px;
+  position: relative;
+}
+.input:focus{
+  outline: none;
+}
+.btn_div{
+  align-self: center;
+  margin-top: 10px;
+  align-items: center;
+  padding: auto;
+}
+.btn_div button{
+  height: 30px;
+  background: #7966FF;
+  border-radius: 5px;
+  color: #fff;
+  border: none;
+}
+.album_wrapper{
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  padding-top: 200px;
+}
+.card{
+  display: flex;
+  flex-direction: row;
+  height: 150px;
+  width: 60%;
+  margin-bottom: 20px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  background: #fff;
+  padding: 10px;
+  padding-left: 20px;
+  align-self: center;
+}
+.thumbnail{
+  height: 100px;
+  width: 100px;
+  align-self: center;
+}
+.title{
+  padding-left: 10px;
+  align-self: center;
+}
+.footer{
+  background: #7966FF;
+  display: flex;
+  flex-direction: row;
+  bottom:0;
+  color: #fff;
+  opacity: 1;
+}
+.address{
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+  padding-bottom: 20px;
+  width: 100px;
+}
+.links{
+  display: flex;
+  justify-content: space-between;
+}
+.fa-linkedin-square, .fa-envelope-o,.fa-github {
+  font-size: 20px;
+  color: #fff;
+}
+.copyright{
+  margin-left: auto;
+  color: #ffff;
+  padding: 10px;
+}
+.loading{
+  text-align: center;
+  font-size: 20px;
+}
