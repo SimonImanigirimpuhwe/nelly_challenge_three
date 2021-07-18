@@ -5,7 +5,7 @@ import './App.css';
 import Footer from './components/Footer';
 import AlbumPhotos from './components/AlbumPhotos';
 
-const API_URL = "http://localhost:5000"
+const API_URL = "https://album-photos-search-api.herokuapp.com"
 
 function App() {
   const [photos, setPhotos] = useState([]);
