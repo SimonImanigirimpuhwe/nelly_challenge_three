@@ -1,4 +1,4 @@
-[
+export default [
     {
       "albumId": 1,
       "id": 1,
