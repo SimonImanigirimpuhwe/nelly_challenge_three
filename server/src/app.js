@@ -11,5 +11,10 @@ app.use(cors())
 
 app.use("/photos", albumRouter)
 
+app.use("/", (req, res, next) => {
+    res.status(200).json({message: "Welcome to album photos search API"})
+    next()
+})
+
 
 export default app

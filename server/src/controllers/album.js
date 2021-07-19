@@ -1,4 +1,4 @@
-import photos from "../utils/db.json";
+import photos from "../utils/db.js";
 
 const getAlbumPhotos = async (req, res) => {
     const {id} = req.params;
